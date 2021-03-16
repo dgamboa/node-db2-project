@@ -9,7 +9,8 @@ const getById = (id) => {
 }
 
 const create = (car) => {
-  db('cars').insert(car)
+  db('cars').insert(car);
+  return db('cars').where('vin', car.vin).first();
 }
 
 module.exports = {

@@ -27,7 +27,7 @@ There are two possible ways to submit your project. Your instructor should have 
 
 ### Task 2: Minimum Viable Product
 
-Build a RESTful API for an "cars" resource. The client for this API is a car dealer.
+Build a RESTful API for a "cars" resource. The client for this API is a car dealer.
 
 #### Cars Schema
 
